@@ -1,4 +1,4 @@
-# SmartTraffic-DQN  
+# Deep Traffic Control
 A Deep Q-Network (DQN)-based traffic signal optimization system to reduce congestion and improve traffic flow.
 
 ## Features  
@@ -27,7 +27,7 @@ The training process is logged, and key metrics like rewards, epsilon decay, and
 This project is licensed under the MIT License.
 
 
-## 🔍 Overview  
+## Overview  
 Traffic congestion is a major issue in urban areas, leading to delays, fuel wastage, and increased pollution. Traditional traffic signals operate on **fixed timers**, which are often inefficient. This project explores a **reinforcement learning approach** where an **AI agent** controls traffic signals by learning optimal phase-switching strategies through interaction with a simulated environment.  
 
 The agent is trained using a **Deep Q-Network (DQN)** and learns to **reduce overall congestion** by minimizing the sum of traffic densities in all directions. 
